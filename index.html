@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Creative Agency Page</title>
+    <meta property="og:title" content="Creative Agency Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: DM Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: undefined;
+        letter-spacing: normal;
+        line-height: 1.3;
+        color: var(--dl-color-scheme-darkblue);
+        background: var(--dl-color-scheme-white);
+
+        fill: var(--dl-color-scheme-darkblue);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      .services-card:hover > div{
+      background-color: #fff
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <header data-role="Header" class="navigation-header">
+            <div class="navigation-max-width">
+              <img alt="logo" src="public/logo1-1200w.png" />
+              <div class="navigation-nav1">
+                <navigation-links-wrapper
+                  class="navigation-links-wrapper"
+                  rootclassname="navigation-linksundefined"
+                >
+                  <!--NavigationLinks component-->
+                  <nav
+                    class="navigation-links-nav navigation-linksroot-class-name17"
+                  >
+                    <span class="navigation-links-text1 Navigation-Link">
+                      <span>Home</span>
+                    </span>
+                    <span class="navigation-links-text2 Navigation-Link">
+                      <span>About</span>
+                    </span>
+                    <span class="navigation-links-text3 Navigation-Link">
+                      <span>Portofolio</span>
+                    </span>
+                    <span class="navigation-links-text4 Navigation-Link">
+                      <span>Blog</span>
+                    </span>
+                  </nav>
+                </navigation-links-wrapper>
+                <button class="button-secondary button button-md">
+                  <span>Get in touch</span>
+                </button>
+              </div>
+              <div data-role="BurgerMenu" class="navigation-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="navigation-icon1">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+              <div data-role="MobileMenu" class="mobile-menu">
+                <div class="navigation-nav2">
+                  <div class="navigation-container">
+                    <img alt="image" src="public/logo1-1200w.png" />
+                    <div
+                      data-role="CloseMobileMenu"
+                      class="navigation-close-mobile-menu"
+                    >
+                      <svg viewBox="0 0 1024 1024" class="navigation-icon3">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <navigation-links-wrapper-79tq
+                    class="navigation-links-wrapper-79tq"
+                    rootclassname="navigation-linksundefined"
+                  >
+                    <!--NavigationLinks component-->
+                    <nav
+                      class="navigation-links-nav1 navigation-linksroot-class-name18"
+                    >
+                      <span class="navigation-links-text5 Navigation-Link">
+                        <span>Home</span>
+                      </span>
+                      <span class="navigation-links-text6 Navigation-Link">
+                        <span>About</span>
+                      </span>
+                      <span class="navigation-links-text7 Navigation-Link">
+                        <span>Portofolio</span>
+                      </span>
+                      <span class="navigation-links-text8 Navigation-Link">
+                        <span>Blog</span>
+                      </span>
+                    </nav>
+                  </navigation-links-wrapper-79tq>
+                  <button class="button-secondary button button-md">
+                    <span>Get in touch</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </header>
+        </navigation-wrapper>
+        <main class="home-main">
+          <div class="home-hero section-container">
+            <div class="home-max-width1 max-content-container">
+              <div class="home-heading-container1">
+                <h1 class="home-text10 Heading1">
+                  <span>We are a creative agency based</span>
+                  <span>in Massachusetts</span>
+                </h1>
+                <span class="home-text13">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod
+                  </span>
+                  <br />
+                  <span>
+                    tempor incididunt ut labore et dolore magna aliqua.
+                  </span>
+                </span>
+                <button class="home-primary1 button-primary button-lg button">
+                  Get in touch with us
+                </button>
+              </div>
+              <div class="home-gallery">
+                <div class="home-container2">
+                  <img
+                    alt="image"
+                    src="public/rectangle%2095-1000w.png"
+                    class="home-image1"
+                  />
+                </div>
+                <div class="home-container3">
+                  <img
+                    alt="image"
+                    src="public/rectangle%2095%20%5B1%5D-1000w.png"
+                    class="home-image2"
+                  />
+                  <img
+                    alt="image"
+                    src="public/rectangle%2095%20%5B2%5D-1000w.png"
+                    class="home-image3"
+                  />
+                </div>
+                <div class="home-container4">
+                  <img
+                    alt="image"
+                    src="public/rectangle%2095%20%5B3%5D-1000w.png"
+                    class="home-image4"
+                  />
+                  <div class="home-container5">
+                    <img
+                      alt="image"
+                      src="public/rectangle%2095%20%5B4%5D-1000w.png"
+                      class="home-image5"
+                    />
+                    <img
+                      alt="image"
+                      src="public/rectangle%2095%20%5B5%5D-1000w.png"
+                      class="home-image6"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-services section-container">
+            <div class="home-max-width2 max-content-container">
+              <div class="home-heading-container2">
+                <div class="home-text-container1">
+                  <span class="home-text17">our services</span>
+                  <h2 class="Heading2">
+                    <span>We provide a wide range of</span>
+                    <br />
+                    <span>creative solutions</span>
+                  </h2>
+                </div>
+                <div class="home-controls">
+                  <button class="control-btn">
+                    <svg viewBox="0 0 1024 1024" class="home-icon10">
+                      <path
+                        d="M402.746 877.254l-320-320c-24.994-24.992-24.994-65.516 0-90.51l320-320c24.994-24.992 65.516-24.992 90.51 0 24.994 24.994 24.994 65.516 0 90.51l-210.746 210.746h613.49c35.346 0 64 28.654 64 64s-28.654 64-64 64h-613.49l210.746 210.746c12.496 12.496 18.744 28.876 18.744 45.254s-6.248 32.758-18.744 45.254c-24.994 24.994-65.516 24.994-90.51 0z"
+                      ></path>
+                    </svg>
+                  </button>
+                  <button class="control-btn">
+                    <svg viewBox="0 0 1024 1024" class="home-icon12">
+                      <path
+                        d="M621.254 877.254l320-320c24.994-24.992 24.994-65.516 0-90.51l-320-320c-24.994-24.992-65.516-24.992-90.51 0-24.994 24.994-24.994 65.516 0 90.51l210.746 210.746h-613.49c-35.346 0-64 28.654-64 64s28.654 64 64 64h613.49l-210.746 210.746c-12.496 12.496-18.744 28.876-18.744 45.254s6.248 32.758 18.744 45.254c24.994 24.994 65.516 24.994 90.51 0z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="home-cards-container">
+                <services-card-wrapper class="services-card-wrapper">
+                  <!--ServicesCard component-->
+                  <div class="services-card">
+                    <div class="services-card-container">
+                      <img
+                        alt="image"
+                        src="public/website-200h.png"
+                        class="services-card-image"
+                      />
+                    </div>
+                    <span class="services-card-text1">
+                      <span>Website design</span>
+                    </span>
+                    <span class="services-card-text2">
+                      <span>
+                        Create your ubest unique App development, crafted for
+                        your business needs.
+                      </span>
+                    </span>
+                    <span class="services-card-text3">
+                      <span>Learn more</span>
+                    </span>
+                  </div>
+                </services-card-wrapper>
+                <services-card-wrapper-kfvv class="services-card-wrapper-kfvv">
+                  <!--ServicesCard component-->
+                  <div class="services-card">
+                    <div class="services-card-container1">
+                      <img
+                        alt="image"
+                        src="public/file-document-200w.png"
+                        class="services-card-image1"
+                      />
+                    </div>
+                    <span class="services-card-text4">
+                      <span>Copy-writting</span>
+                    </span>
+                    <span class="services-card-text5">
+                      <span>
+                        Create your ubest unique App development, crafted for
+                        your business needs.
+                      </span>
+                    </span>
+                    <span class="services-card-text6">
+                      <span>Learn more</span>
+                    </span>
+                  </div>
+                </services-card-wrapper-kfvv>
+                <services-card-wrapper-5wls class="services-card-wrapper-5wls">
+                  <!--ServicesCard component-->
+                  <div class="services-card">
+                    <div class="services-card-container2">
+                      <img
+                        alt="image"
+                        src="public/dice-5-200h.png"
+                        class="services-card-image2"
+                      />
+                    </div>
+                    <span class="services-card-text7">
+                      <span>Product Design</span>
+                    </span>
+                    <span class="services-card-text8">
+                      <span>
+                        Create your ubest unique App development, crafted for
+                        your business needs.
+                      </span>
+                    </span>
+                    <span class="services-card-text9">
+                      <span>Learn more</span>
+                    </span>
+                  </div>
+                </services-card-wrapper-5wls>
+              </div>
+            </div>
+          </div>
+          <div class="section-container">
+            <div class="home-max-width3 max-content-container">
+              <div class="home-text-container2">
+                <span class="home-text22">our work</span>
+                <h2 class="home-text23 Heading2">
+                  <span>Explore our portfolio</span>
+                </h2>
+                <span class="home-text25">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut
+                  </span>
+                  <br />
+                  <span>
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation.
+                  </span>
+                </span>
+                <button class="button-secondary button-lg button">
+                  See all projects
+                </button>
+              </div>
+              <div class="home-tab-selector-header">
+                <span class="home-text29 tab-selector-btn">Advertising</span>
+                <span class="home-text30 tab-selector-btn">Social Media</span>
+                <span class="home-text31 tab-selector-btn">Branding</span>
+                <span class="home-text32 tab-selector-btn">UI / UX</span>
+                <span class="home-text33 tab-selector-btn">Packaging</span>
+                <span class="tab-selector-btn">Product Design</span>
+              </div>
+              <div class="home-tab-selector-cards-container">
+                <portofolio-card-wrapper
+                  class="portofolio-card-wrapper"
+                  rootclassname="portofolio-cardundefined"
+                >
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card portofolio-cardroot-class-name"
+                  >
+                    <div class="portofolio-card-image-container">
+                      <img
+                        alt="image"
+                        src="public/unsplash_qj15unotnh0-400h.png"
+                        class="portofolio-card-image"
+                      />
+                      <div class="portofolio-card-see-project-container">
+                        <button class="button-secondary-white button button-md">
+                          See project
+                        </button>
+                      </div>
+                    </div>
+                    <span class="portofolio-card-first-name">
+                      <span>Office Life Campaign - Boost your creativity</span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper>
+                <portofolio-card-wrapper-j9pq
+                  class="portofolio-card-wrapper-j9pq"
+                  rootclassname="portofolio-cardundefined"
+                >
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card1 portofolio-cardroot-class-name5"
+                  >
+                    <div class="portofolio-card-image-container1">
+                      <img
+                        alt="image"
+                        src="public/unsplash_wwqrpsnbpq4-400h.png"
+                        class="portofolio-card-image1"
+                      />
+                      <div class="portofolio-card-see-project-container1">
+                        <button class="button-secondary-white button button-md">
+                          See project
+                        </button>
+                      </div>
+                    </div>
+                    <span class="portofolio-card-first-name1">
+                      <span>A brand-new advertising idea</span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper-j9pq>
+                <portofolio-card-wrapper-fdyr
+                  class="portofolio-card-wrapper-fdyr"
+                  rootclassname="portofolio-cardundefined"
+                >
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card2 portofolio-cardroot-class-name4"
+                  >
+                    <div class="portofolio-card-image-container2">
+                      <img
+                        alt="image"
+                        src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxjb2NhJTIwY29sYXxlbnwwfHx8fDE2NDY5MjYyNTM&amp;ixlib=rb-1.2.1&amp;h=400"
+                        class="portofolio-card-image2"
+                      />
+                      <div class="portofolio-card-see-project-container2">
+                        <button class="button-secondary-white button button-md">
+                          See project
+                        </button>
+                      </div>
+                    </div>
+                    <span class="portofolio-card-first-name2">
+                      <span>Coca-Cola Summer Concept Campaign - 2021</span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper-fdyr>
+                <portofolio-card-wrapper-dvhk
+                  class="portofolio-card-wrapper-dvhk"
+                  rootclassname="portofolio-cardundefined"
+                >
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card3 portofolio-cardroot-class-name3"
+                  >
+                    <div class="portofolio-card-image-container3">
+                      <img
+                        alt="image"
+                        src="https://images.unsplash.com/photo-1519420573924-65fcd45245f8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fG51dGVsbGF8ZW58MHx8fHwxNjQ2OTI2MTky&amp;ixlib=rb-1.2.1&amp;h=400"
+                        class="portofolio-card-image3"
+                      />
+                      <div class="portofolio-card-see-project-container3">
+                        <button class="button-secondary-white button button-md">
+                          See project
+                        </button>
+                      </div>
+                    </div>
+                    <span class="portofolio-card-first-name3">
+                      <span>
+                        Ad Campaign - I love you as much as I love Nutella
+                      </span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper-dvhk>
+                <portofolio-card-wrapper-tlof
+                  class="portofolio-card-wrapper-tlof"
+                  rootclassname="portofolio-cardundefined"
+                >
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card4 portofolio-cardroot-class-name2"
+                  >
+                    <div class="portofolio-card-image-container4">
+                      <img
+                        alt="image"
+                        src="https://images.unsplash.com/photo-1567103472667-6898f3a79cf2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGNvY2ElMjBjb2xhfGVufDB8fHx8MTY0NjkyNjI1Mw&amp;ixlib=rb-1.2.1&amp;h=400"
+                        class="portofolio-card-image4"
+                      />
+                      <div class="portofolio-card-see-project-container4">
+                        <button class="button-secondary-white button button-md">
+                          See project
+                        </button>
+                      </div>
+                    </div>
+                    <span class="portofolio-card-first-name4">
+                      <span>Coca-Colla Next Door Campaign - conceptual</span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper-tlof>
+                <portofolio-card-wrapper-53dm
+                  class="portofolio-card-wrapper-53dm"
+                  rootclassname="portofolio-cardundefined"
+                >
+                  <!--PortofolioCard component-->
+                  <div
+                    class="portofolio-card-speaker-card5 portofolio-cardroot-class-name1"
+                  >
+                    <div class="portofolio-card-image-container5">
+                      <img
+                        alt="image"
+                        src="https://images.unsplash.com/photo-1545231027-637d2f6210f8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHN0YXJidWNrc3xlbnwwfHx8fDE2NDY5MjYyMzc&amp;ixlib=rb-1.2.1&amp;h=400"
+                        class="portofolio-card-image5"
+                      />
+                      <div class="portofolio-card-see-project-container5">
+                        <button class="button-secondary-white button button-md">
+                          See project
+                        </button>
+                      </div>
+                    </div>
+                    <span class="portofolio-card-first-name5">
+                      <span>
+                        Starbucks secret is a smile when you get your latte
+                      </span>
+                    </span>
+                  </div>
+                </portofolio-card-wrapper-53dm>
+              </div>
+            </div>
+          </div>
+          <div class="home-about section-container">
+            <div class="home-max-width4 max-content-container">
+              <div class="home-text-container3">
+                <span class="home-text35">about us</span>
+                <h2 class="home-text36 Heading2">
+                  <span>We build brands with</span>
+                  <br />
+                  <span>purpose and impact</span>
+                </h2>
+                <span class="home-text40">
+                  We are a full-service digital creative agency with brick and
+                  mortar offices and plenty of in-house talent.
+                </span>
+                <div class="home-checklist">
+                  <div class="home-check-item1">
+                    <svg viewBox="0 0 1024 1024" class="home-icon14">
+                      <path
+                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                      ></path>
+                    </svg>
+                    <span class="home-text41">
+                      Quality services and support all time
+                    </span>
+                  </div>
+                  <div class="home-check-item2">
+                    <svg viewBox="0 0 1024 1024" class="home-icon16">
+                      <path
+                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                      ></path>
+                    </svg>
+                    <span class="home-text42">
+                      Long-term strategy development
+                    </span>
+                  </div>
+                  <div class="home-check-item3">
+                    <svg viewBox="0 0 1024 1024" class="home-icon18">
+                      <path
+                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                      ></path>
+                    </svg>
+                    <span class="home-text43">
+                      FREE Brand Audit for startups
+                    </span>
+                  </div>
+                  <div class="home-check-item4">
+                    <svg viewBox="0 0 1024 1024" class="home-icon20">
+                      <path
+                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                      ></path>
+                    </svg>
+                    <span class="home-text44">
+                      Over 10 years in the business
+                    </span>
+                  </div>
+                  <div class="home-check-item5">
+                    <svg viewBox="0 0 1024 1024" class="home-icon22">
+                      <path
+                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                      ></path>
+                    </svg>
+                    <span class="home-text45">Future-Proofing Projects</span>
+                  </div>
+                  <div class="home-check-item6">
+                    <svg viewBox="0 0 1024 1024" class="home-icon24">
+                      <path
+                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                      ></path>
+                    </svg>
+                    <span class="home-text46">
+                      Support in any implementation
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="home-image-container">
+                <img
+                  alt="image"
+                  src="public/rectangle%20109-1000w.png"
+                  class="home-image7"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="home-process section-container">
+            <div class="home-max-width5 max-content-container">
+              <span class="home-text47">Our process</span>
+              <h2 class="home-text48 Heading2">
+                <span>We use a simple three step process.</span>
+                <br />
+                <span>Take a look.</span>
+              </h2>
+              <div class="home-step1">
+                <span class="home-text52">01</span>
+                <div class="home-container6">
+                  <span class="home-text53">Finding the best idea</span>
+                  <span class="home-text54">
+                    There are countless businesses already in existence, so it’s
+                    very likely that you won’t be the first person to think of
+                    an idea or product. There are countless businesses already
+                    in existence, so it’s very likely that you won’t be the
+                    first person to think of an idea or product.
+                  </span>
+                </div>
+              </div>
+              <div class="home-step2">
+                <span class="home-text55">02</span>
+                <div class="home-container7">
+                  <span class="home-text56">Intense Brain storming</span>
+                  <span class="home-text57">
+                    Brainstorming is a process of toiling and generating new
+                    ideas alone or by holding intensive group discussions
+                    between team members in a team.
+                  </span>
+                </div>
+              </div>
+              <div class="home-step3">
+                <span class="home-text58">03</span>
+                <div class="home-container8">
+                  <span class="home-text59">Strong design execution</span>
+                  <span class="home-text60">
+                    As a creative, using your professional judgement, you should
+                    begin filtering your various ideas and designs, retaining
+                    the strongest relevant material.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-container">
+            <div class="home-max-width6 max-content-container">
+              <span class="home-text61">from blog</span>
+              <h2 class="home-text62 Heading2">
+                <span>Our latest articles and resources</span>
+              </h2>
+              <span class="home-text64">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt
+                </span>
+                <br />
+                <span>
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation.
+                </span>
+              </span>
+              <button class="home-primary3 button-secondary button-lg button">
+                Explore the blog
+              </button>
+              <div class="home-blog-cards-container">
+                <blog-card-wrapper
+                  class="blog-card-wrapper"
+                  rootclassname="blog-cardundefined"
+                >
+                  <!--BlogCard component-->
+                  <div class="blog-card-blog-card blog-cardroot-class-name">
+                    <img
+                      alt="image"
+                      src="public/rectangle%2099-1500w.png"
+                      class="blog-card-image"
+                    />
+                    <div class="blog-card-container">
+                      <button class="blog-card-button button-secondary button">
+                        <span>Web Design</span>
+                      </button>
+                      <span class="blog-card-text1">
+                        <span>Dec 8, 2022</span>
+                      </span>
+                    </div>
+                    <span class="blog-card-text2">
+                      <span>
+                        Excepteur sint occaecat cupidatat non proident, sunt
+                      </span>
+                      <span>in culpa qui and.</span>
+                    </span>
+                    <span class="blog-card-text5"><span>Learn more</span></span>
+                  </div>
+                </blog-card-wrapper>
+                <blog-card-wrapper-0ggn
+                  class="blog-card-wrapper-0ggn"
+                  rootclassname="blog-cardundefined"
+                >
+                  <!--BlogCard component-->
+                  <div class="blog-card-blog-card1 blog-cardroot-class-name1">
+                    <img
+                      alt="image"
+                      src="public/rectangle%2099%20%5B1%5D-1500w.png"
+                      class="blog-card-image1"
+                    />
+                    <div class="blog-card-container1">
+                      <button class="blog-card-button1 button-secondary button">
+                        <span>advertising</span>
+                      </button>
+                      <span class="blog-card-text6">
+                        <span>Aug 14, 2022</span>
+                      </span>
+                    </div>
+                    <span class="blog-card-text7">
+                      <span>
+                        Excepteur sint occaecat cupidatat non proident, sunt
+                      </span>
+                      <span>in culpa qui and.</span>
+                    </span>
+                    <span class="blog-card-text10">
+                      <span>Learn more</span>
+                    </span>
+                  </div>
+                </blog-card-wrapper-0ggn>
+                <blog-card-wrapper-uh6x class="blog-card-wrapper-uh6x">
+                  <!--BlogCard component-->
+                  <div class="blog-card-blog-card2 blog-card">
+                    <img
+                      alt="image"
+                      src="public/unsplash_h7qmwoxf6z8-1500w.png"
+                      class="blog-card-image2"
+                    />
+                    <div class="blog-card-container2">
+                      <button class="blog-card-button2 button-secondary button">
+                        <span>Branding</span>
+                      </button>
+                      <span class="blog-card-text11">
+                        <span>Jul 12, 2022</span>
+                      </span>
+                    </div>
+                    <span class="blog-card-text12">
+                      <span>
+                        Excepteur sint occaecat cupidatat non proident, sunt
+                      </span>
+                      <span>in culpa qui and.</span>
+                    </span>
+                    <span class="blog-card-text15">
+                      <span>Learn more</span>
+                    </span>
+                  </div>
+                </blog-card-wrapper-uh6x>
+              </div>
+            </div>
+          </div>
+          <div class="home-banner section-container">
+            <div class="home-max-width7 max-content-container">
+              <span class="home-text68">what are you waiting?</span>
+              <h2 class="home-text69 Heading2">
+                <span>Let’s collaborate!</span>
+              </h2>
+              <span class="home-text71">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt
+                </span>
+                <br />
+                <span>
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation.
+                </span>
+              </span>
+              <button
+                class="home-primary4 button-lg button-secondary-white button"
+              >
+                Contact us
+              </button>
+            </div>
+          </div>
+        </main>
+        <div class="section-container">
+          <div class="max-content-container">
+            <div class="home-top-part">
+              <div class="home-links-container">
+                <div class="home-product-container">
+                  <span class="home-text75">Product</span>
+                  <span class="home-text76">About</span>
+                  <span class="home-text77">Portofolio</span>
+                  <span>Blog</span>
+                </div>
+                <div class="home-navigate-container">
+                  <span class="home-text79">Navigate</span>
+                  <span class="home-text80">Copyrights</span>
+                  <span class="home-text81">Sitemap</span>
+                  <span>Privacy Policy</span>
+                </div>
+                <div class="home-contact-container">
+                  <span class="home-text83">Contact Us</span>
+                  <span class="home-text84">
+                    <span>2157 Village View</span>
+                    <br />
+                    <span>Drive, Old Fort</span>
+                    <br />
+                    <span>Myers Florida</span>
+                    <br />
+                    <span>33901</span>
+                  </span>
+                </div>
+              </div>
+              <div class="home-subscribe-container">
+                <span class="home-text92">Subscribe to our newsletter</span>
+                <input
+                  type="text"
+                  placeholder="Enter your e-mail address"
+                  class="home-textinput input"
+                />
+                <button class="button-primary button">Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <div class="home-separator"></div>
+          <footer class="home-max-width9 max-content-container">
+            <img alt="image" src="public/logo1-200h.png" class="home-image8" />
+            <span class="home-text93">
+              <span>All rights recived @</span>
+              <span class="home-text95">aesthetics</span>
+              <span>| Designed by</span>
+              <span class="home-text97">teleporhq.io</span>
+              <span></span>
+            </span>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+    <script defer="">
+      window.onload = () => {
+        const runAllScripts = () => {
+          initializeAllSliders();
+        };
+
+        const listenForUrlChanges = () => {
+          let url = location.href;
+          document.body.addEventListener(
+            "click",
+            () => {
+              requestAnimationFrame(() => {
+                if (url !== location.href) {
+                  runAllScripts();
+                  url = location.href;
+                }
+              });
+            },
+            true
+          );
+        };
+
+        const initializeAllSliders = () => {
+          const allSliders = document.querySelectorAll('[data-type="slider"]');
+          allSliders.forEach((slider) => {
+            initializeSlider(slider);
+          });
+        };
+
+        const initializeSlider = (slider) => {
+          const slides = slider.querySelectorAll('[data-type="slide"]');
+          const middle = Math.ceil(slides.length / 2);
+          let currentSlide = middle;
+
+          const nextSlideBtns = document.querySelectorAll(
+            '[data-action="nextSlide"]'
+          );
+          const previousSlideBtns = document.querySelectorAll(
+            '[data-action="previousSlide"]'
+          );
+
+          const changeSlide = (slideIndex, action) => {
+            currentSlide = slideIndex;
+
+            switch (action) {
+              case "next":
+                slideIndex === slides.length
+                  ? (currentSlide = 1)
+                  : currentSlide++;
+                break;
+              case "previous":
+                slideIndex === 1
+                  ? (currentSlide = slides.length)
+                  : currentSlide--;
+            }
+
+            const slide = slides[0];
+            if (!slide) {
+              console.error("No slides present");
+              return;
+            }
+            const style = window.getComputedStyle(slide);
+            slideWidth =
+              parseInt(style.width) +
+              parseInt(style.marginLeft) +
+              parseInt(style.marginRight);
+            const transformValue = -slideWidth * (currentSlide - middle);
+
+            slider.style.transform = `translateX(${transformValue}px)`;
+          };
+
+          previousSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "previous")
+            );
+          });
+
+          nextSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "next")
+            );
+          });
+        };
+
+        runAllScripts();
+      };
+    </script>
+  </body>
+</html>
